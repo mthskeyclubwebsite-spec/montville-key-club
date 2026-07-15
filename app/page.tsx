@@ -52,12 +52,12 @@ export default function Home() {
 
       {/* Stats */}
       <div className="bg-[#003366] py-10 px-6 md:px-8">
-        <div className="max-w-5xl mx-auto grid grid-cols-3 gap-4 text-center">
+      <div className="max-w-5xl mx-auto grid grid-cols-3 gap-2 md:gap-4 text-center divide-x divide-blue-500">
           <div>
             <div className="text-3xl md:text-5xl font-bold text-white" style={{ fontFamily: 'var(--font-playfair), serif' }}>175+</div>
             <div className="text-blue-300 text-xs md:text-sm mt-2 uppercase tracking-wider">Active members</div>
           </div>
-          <div className="border-x border-blue-500">
+          <div>
             <div className="text-3xl md:text-5xl font-bold text-white" style={{ fontFamily: 'var(--font-playfair), serif' }}>2,400+</div>
             <div className="text-blue-300 text-xs md:text-sm mt-2 uppercase tracking-wider">Service hours</div>
           </div>
