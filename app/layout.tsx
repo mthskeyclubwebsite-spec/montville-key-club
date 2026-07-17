@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Source_Sans_3, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import Providers from "./providers";
 
 const sourceSans = Source_Sans_3({
   variable: "--font-source-sans",
@@ -28,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sourceSans.variable} ${playfair.variable} min-h-full flex flex-col font-sans antialiased`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
