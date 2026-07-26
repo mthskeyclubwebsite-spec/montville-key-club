@@ -24,7 +24,7 @@ export default function EventsPage() {
           <a href="/" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Home</a>
           <a href="/events" className="text-sm text-[#003366] font-semibold">Events</a>
           <a href="/announcements" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Announcements</a>
-          <a href="/join" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Join</a>
+          <a href="/follow_us" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Follow Us</a>
         </div>
         <a href="/login" className="bg-[#003366] hover:bg-blue-900 text-white text-xs md:text-sm px-3 md:px-5 py-2 md:py-2.5 rounded-lg font-medium transition-colors">Member Login</a>
       </nav>
