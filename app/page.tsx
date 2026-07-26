@@ -14,9 +14,9 @@ export default function Home() {
           </div>
         </div>
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Home</a>
+          <a href="/" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Home</a>
           <a href="/events" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Events</a> 
-          <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Announcements</a>
+          <a href="/announcements" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Announcements</a>
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Join</a>
         </div>
         <a href="/login" className="bg-[#003366] hover:bg-blue-900 text-white text-xs md:text-sm px-3 md:px-5 py-2 md:py-2.5 rounded-lg font-medium transition-colors">Member Login</a>
