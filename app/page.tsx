@@ -19,7 +19,7 @@ export default function Home() {
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Announcements</a>
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Join</a>
         </div>
-        <button className="bg-[#003366] hover:bg-blue-900 text-white text-xs md:text-sm px-3 md:px-5 py-2 md:py-2.5 rounded-lg font-medium transition-colors">Member Login</button>
+        <a href="/login" className="bg-[#003366] hover:bg-blue-900 text-white text-xs md:text-sm px-3 md:px-5 py-2 md:py-2.5 rounded-lg font-medium transition-colors">Member Login</a>
       </nav>
 
       {/* Hero */}
@@ -167,6 +167,7 @@ export default function Home() {
         </div>
       </div>
 
+
       {/* Footer */}
       <footer className="bg-[#001a33] text-blue-300 px-6 md:px-10 py-10">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 md:gap-0">
@@ -188,7 +189,7 @@ export default function Home() {
             <div>
               <div className="text-white font-semibold text-sm mb-3 uppercase tracking-wider">Members</div>
               <div className="flex flex-col gap-2">
-                <a href="#" className="text-sm hover:text-white transition-colors">Login</a>
+              <a href="/login" className="text-sm hover:text-white transition-colors">Login</a>
                 <a href="#" className="text-sm hover:text-white transition-colors">Join Key Club</a>
                 <a href="#" className="text-sm hover:text-white transition-colors">Contact</a>
               </div>
