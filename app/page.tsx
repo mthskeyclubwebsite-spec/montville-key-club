@@ -15,7 +15,7 @@ export default function Home() {
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Home</a>
-          <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Events</a>
+          <a href="/events" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Events</a> 
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Announcements</a>
           <a href="#" className="text-sm text-gray-600 hover:text-blue-800 font-medium transition-colors">Join</a>
         </div>
